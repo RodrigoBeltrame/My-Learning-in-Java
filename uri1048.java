@@ -32,7 +32,7 @@ public class uri1048 {
     		newSalary = salary + (salary * 0.10);
     		readjustment = newSalary - salary;
     	}
-    	if(salary >= 1200.00 && salary <= 2000.00) {
+    	if(salary >= 1200.01 && salary <= 2000.00) {
     		porcentage = 7;
     		newSalary = salary + (salary * 0.07);
     		readjustment = newSalary - salary;
@@ -43,9 +43,9 @@ public class uri1048 {
     		readjustment = newSalary - salary;
     	}
     	
-    	System.out.println("Novo salario : " + df.format(newSalary));
-    	System.out.println("Reajuste ganho : " + df.format(readjustment));
-    	System.out.println("Em percentual : " + porcentage + " %");
+    	System.out.println("Novo salario: " + df.format(newSalary));
+    	System.out.println("Reajuste ganho: " + df.format(readjustment));
+    	System.out.println("Em percentual: " + porcentage + " %");
     	
     	sc.close();
     }
